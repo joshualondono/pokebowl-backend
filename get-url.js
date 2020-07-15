@@ -1,7 +1,11 @@
 // Your code here.
 // Note that you do NOT need the data for this function!
 
+const pokemon = require('./pokemon.js');
 
+const getUrl = function(row){
+  return pokemon[row][1]
+}
 
 
 // OUR code here.
@@ -11,4 +15,4 @@ if (typeof getUrl === 'undefined') {
 }
 
 
-module.exports = getUrl; 
+module.exports = getUrl;

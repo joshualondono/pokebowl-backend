@@ -9,9 +9,12 @@ for(const poke of pokemon){
   if (name === poke[0]){
 
     return poke
-  }
+  } else {
 
+  }
 }
+return null
+
 }
 
 
