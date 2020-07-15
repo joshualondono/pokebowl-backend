@@ -4,7 +4,13 @@
 const pokemon = require('./pokemon.js');
 
 const getUrl = function(row){
-    return row[1]
+    if(row !== null){
+      return row[1]
+
+    } else{
+
+    }
+    return null
 }
 
 
