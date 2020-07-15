@@ -4,7 +4,15 @@
 // Check it out to see its content and shape!
 const pokemon = require('./pokemon.js');
 
+const getRow = function(name){
+for(const poke of pokemon){
+  if (name === poke[0]){
 
+    return poke
+  }
+
+}
+}
 
 
 // OUR code here.
